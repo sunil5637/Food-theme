@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html>
+<head><title>BRAND X</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/body.css">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<style>
+
+
+body { 
+  margin: 0;
+  background: black;
+}
+#s{
+  margin-left: 4%;
+  
+  background-image: -webkit-linear-gradient( #39ff14, #15f4ee, #000080 );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+.container:hover{
+  background-image: -webkit-linear-gradient(180deg, #F27121, #E94057, #8A2387 );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+}
+</style>
+</head>
+<body>
+
+
+<div class="header" id="myHeader" style="background-image: url(images/Luxury-Black-Background-Vector.jpg); background-size: cover;">
+  <a href="#" class="logo">BRAND X</a>
+  <div style="padding-left: 300px;">
+<a href="#section1">Select your location</a>
+  <a href="#section2">Order food</a>
+  <a href="#section3">Track your food</a>
+  <a href="#section4">Special Offers</a></div>
+  <div class="header-right">
+    <a class="active" href="#home" >About</a>
+    <a href="#">Service</a>
+    <a href="#">Contact Us</a>
+   </div>
+</div> 
+<video autoplay muted loop id="foodvideo">
+      <source src="Food preparation - delicious --) Video Footage Free HD.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+    </video>
+      
+    <div class="content">
+      <p>We deliver you the delicious.<br>
+            Explore our service </p>
+         
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"> 
+      <form action="">
+        <input type="search" placeholder="enter your location & press enter...">
+        <div class="fa fa-search">
+
+        </div>
+      </form>
+    </div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<!--
+<div class="marquee">      
+      <div class="marquee__content">
+        <ul class="list-inline">
+          <li><img class="image1" src="images/Fast-food.jpg" width="250" height="250" alt="image1"></li>
+          <li><img class="image2" src="images/breakfast.jpg" width="250" height="250" alt="image2"></li>
+          <li><img class="image3" src="images/chicken.jpg" width="250" height="250"alt="image3"></li>
+          <li><img class="image4" src="images/dessert.jpg" width="250" height="250" alt="image4"></li>
+          <li><img class="image5" src="images/snacks.jpg" width="250" height="250" alt="image5"></li>
+        <li><img class="image3" src="images/chicken.jpg" width="250" height="250" alt="image3"></li>
+          <li><img class="image4" src="images/dessert.jpg" width="250" height="250" alt="image4"></li>
+        <li><img class="image4" src="images/dessert.jpg"width="250" height="250" alt="image4"></li>
+          <li><img class="image5" src="images/snacks.jpg" width="250" height="250" alt="image5"></li>
+          <li><img class="image28" src="images/chicken.jpg" width="250" height="250" alt="image28"></li>
+            <li><img class="image29" src="images/snacks.jpg"width="250" height="250" alt="image29"></li>
+
+            <li><img class="image26" src="images/veg.jpg" width="250" height="250" alt="image26"></li>
+            <li><img class="image27" src="images/pizza.jpg" width="250" height="250" alt="image27"></li>
+            <li><img class="image28" src="images/chicken.jpg" width="250" height="250" alt="image28"></li>
+            <li><img class="image26" src="images/veg.jpg" width="250" height="250" alt="image26"></li>
+            <li><img class="image27" src="images/pizza.jpg" width="250" height="250" alt="image27"></li>
+            <li><img class="image29" src="images/snacks.jpg" width="250" height="250" alt="image29"></li>
+            <li><img class="image30" src="images/Fast-food.jpg" width="250" height="250" alt="image30"></li>
+         
+          </ul>
+      </div>
+      <div class="marquee_text">
+          <b style="font-family: edo">Best among our customer's choices</b>
+      </div>
+    </div>
+-->
+
+    
+
+  <div class="categories">
+    <h2 style="margin-left: 2%; font-size: 42px; color: #0c8ec0;">Categories</h2><br>
+    <div data-aos="flip-down" data-aos-easing="ease-in-sine"
+                      data-aos-duration="0.0001" data-aos-delay="100"><center>
+        <a href="#v"><button class="button"><span>Categories 1</span></button></a>
+        <a href="#nv"><button class="button"><span>Categories 2</span></button></a>
+        <a href="#ni"><button class="button"><span>Categories 3</span></button></a>
+        <a href="#si"><button class="button"><span>Categories 4</span></button></a>
+        <a href="#d"><button class="button"><span>Categories 5</span></button></a>
+        <a href="#ff"><button class="button"><span>Categories 6</span></button></a></center></center>
+    </div><br><br>
+<div class="Rest">
+    <h1 style="background-image: -webkit-linear-gradient(180deg, #39ff14, #15f4ee, #000080 );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;"><center>Find the top restaurants near you with ease</center><center>Install the app now and enjoy ordering unlimited food</center></h1>
+    </div><br><br>
+  <div class="h" style="background-image: url(images/.jpg); background-size: cover;">
+<div id="myBtn1"><div data-aos="fade-up" data-aos-easing="ease-in-sine"
+                      data-aos-duration="0.0001" data-aos-delay="100">
+<div class="row">
+      <div class="column">
+        <div class="container" style="width:100%; height: 150px; border-radius: 5px; ">
+          <img src="images/pizza.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white; margin-top: 100px;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/veg.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/breakfast.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/chicken.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+</div></div><div data-aos="fade-up" data-aos-easing="ease-in-sine"
+                      data-aos-duration="0.0001" data-aos-delay="100">
+<div class="row">
+      <div class="column">
+        <div class="container">
+          <img src="images/dessert.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/Fast-food.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/pizza.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/snacks.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+</div></div><div data-aos="fade-up" data-aos-easing="ease-in-sine"
+                      data-aos-duration="0.0001" data-aos-delay="100">
+<div class="row">
+      <div class="column">
+        <div class="container">
+          <img src="images/veg.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/breakfast.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/chicken.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/dessert.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+</div></div><br><br><br>
+<center><h1 id="v" style="background-image: -webkit-linear-gradient(180deg, #39ff14, #15f4ee, #000080 );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;">VEGETARIAN FOOD</h1></center><br>
+<div data-aos="fade-up" data-aos-easing="ease-in-sine"
+                      data-aos-duration="0.0001" data-aos-delay="100"><div class="row">
+      <div class="column">
+        <div class="container">
+          <img src="images/v1.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white; padding-top: 10px;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/v2.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/v3.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/v4.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+</div></div><div data-aos="fade-up" data-aos-easing="ease-in-sine"
+                      data-aos-duration="0.0001" data-aos-delay="100">
+<div class="row">
+      <div class="column">
+        <div class="container">
+          <img src="images/v5.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white; padding-top: 10px;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/v6.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/v7.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/v8.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+</div></div><div data-aos="fade-up" data-aos-easing="ease-in-sine"
+                      data-aos-duration="0.0001" data-aos-delay="100">
+<div class="row">
+      <div class="column">
+        <div class="container">
+          <img src="images/v9.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white; padding-top: 10px;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/v10.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/v11.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/v12.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+</div></div><br><br><br>
+<center><h1 id="nv" style="background-image: -webkit-linear-gradient(180deg, #39ff14, #15f4ee, #000080 );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;">NON-VEGETARIAN FOOD</h1></center><br>
+<div data-aos="fade-up" data-aos-easing="ease-in-sine"
+                      data-aos-duration="0.0001" data-aos-delay="100"><div class="row" >
+      <div class="column">
+        <div class="container">
+          <img src="images/nv1.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white; padding-top: 10px;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/nv2.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/nv3.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/nv4.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+</div></div><div data-aos="fade-up" data-aos-easing="ease-in-sine"
+                      data-aos-duration="0.0001" data-aos-delay="100">
+<div class="row">
+      <div class="column">
+        <div class="container">
+          <img src="images/nv5.jpeg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white; padding-top: 10px;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/nv6.jpeg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/nv7.jpeg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/nv8.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+</div></div><br><br><br>
+<center><h1  id="ni" style="background-image: -webkit-linear-gradient(180deg, #39ff14, #15f4ee, #000080 );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;">NORTH INDIAN FOOD</h1></center><br>
+<div data-aos="fade-up" data-aos-easing="ease-in-sine"
+                      data-aos-duration="0.0001" data-aos-delay="100"><div class="row" >
+      <div class="column">
+        <div class="container">
+          <img src="images/ni1.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white; padding-top: 10px;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/ni2.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/ni3.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/ni4.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+</div></div><div data-aos="fade-up" data-aos-easing="ease-in-sine"
+                      data-aos-duration="0.0001" data-aos-delay="100">
+<div class="row">
+      <div class="column">
+        <div class="container">
+          <img src="images/ni5.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white; padding-top: 10px;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/ni6.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/ni7.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/ni8.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+</div></div><div data-aos="fade-up" data-aos-easing="ease-in-sine"
+                      data-aos-duration="0.0001" data-aos-delay="100">
+<div class="row">
+      <div class="column">
+        <div class="container">
+          <img src="images/ni9.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white; padding-top: 10px;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/ni10.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/ni11.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/ni12.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+</div></div>
+<br><br><br>
+<center><h1 id="si" style="background-image: -webkit-linear-gradient(180deg, #39ff14, #15f4ee, #000080 );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;">SOUTH INDIAN FOOD</h1></center><br>
+<div data-aos="fade-up" data-aos-easing="ease-in-sine"
+                      data-aos-duration="0.0001" data-aos-delay="100"><div class="row">
+      <div class="column">
+        <div class="container">
+          <img src="images/si1.jpeg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white; padding-top: 10px;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/si2.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/si3.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/si4.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+</div></div><div data-aos="fade-up" data-aos-easing="ease-in-sine"
+                      data-aos-duration="0.0001" data-aos-delay="100">
+<div class="row">
+      <div class="column">
+        <div class="container">
+          <img src="images/si5.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white; padding-top: 10px;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/si6.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/si7.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/si8.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+</div></div><br><br><br>
+<center><h1 id="d" style="background-image: -webkit-linear-gradient(180deg, #39ff14, #15f4ee, #000080 );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;">DESSERT</h1></center><br>
+<div data-aos="fade-up" data-aos-easing="ease-in-sine"
+                      data-aos-duration="0.0001" data-aos-delay="100"><div class="row">
+      <div class="column">
+        <div class="container">
+          <img src="images/d1.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white; padding-top: 10px;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/d2.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/d3.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/d4.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+</div></div><div data-aos="fade-up" data-aos-easing="ease-in-sine"
+                      data-aos-duration="0.0001" data-aos-delay="100">
+<div class="row">
+      <div class="column">
+        <div class="container">
+          <img src="images/d5.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white; padding-top: 10px;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/d6.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/d7.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/d8.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+</div></div><div data-aos="fade-up" data-aos-easing="ease-in-sine"
+                      data-aos-duration="0.0001" data-aos-delay="100">
+<div class="row">
+      <div class="column">
+        <div class="container">
+          <img src="images/d9.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white; padding-top: 10px;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/d10.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/d11.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/d12.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+</div></div><br><br><br>
+<center><h1 id="ff" style="background-image: -webkit-linear-gradient(180deg, #39ff14, #15f4ee, #000080 );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;">FAST FOOD</h1></center><br>
+<div data-aos="fade-up" data-aos-easing="ease-in-sine"
+                      data-aos-duration="0.0001" data-aos-delay="100"><div class="row">
+      <div class="column">
+        <div class="container">
+          <img src="images/ff1.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white; padding-top: 10px;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/ff2.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/ff3.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/ff4.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+</div></div><div data-aos="fade-up" data-aos-easing="ease-in-sine"
+                      data-aos-duration="0.0001" data-aos-delay="100">
+<div class="row">
+      <div class="column">
+        <div class="container">
+          <img src="images/ff5.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white; padding-top: 10px;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/ff6.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/ff7.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/ff8.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+</div></div><div data-aos="fade-up" data-aos-easing="ease-in-sine"
+                      data-aos-duration="0.0001" data-aos-delay="100">
+<div class="row">
+      <div class="column">
+        <div class="container">
+          <img src="images/ff9.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white; padding-top: 10px;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/ff10.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/ff11.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+      <div class="column">
+        <div class="container">
+          <img src="images/ff12.jpg" class="image" style="width:100%; height: 150px; border-radius: 5px;">
+          <figcaption><b style="color: white;">Pizza hut<br>Thuraipakkam ,chennai</b></figcaption>
+        </div>
+      </div>
+</div></div>
+<br><br></div>
+   </div><br><br>
+    <div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <center><h1>Download the app now and know more about the restaurants</h1></center>
+      <center><button style="margin-top: 3%;font-size: 18px;" class="button"><span>Download now!</span></button></center>
+  </div>
+</div>
+    <div class="social"><center><h1 style="background-image: -webkit-linear-gradient(180deg, #39ff14, #15f4ee, #000080 );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;">Follow us on social media for more updates!</h1></center><br>
+    <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a></div><br><br>
+
+<div class="f" style="background-image: url(images/09.jpg);
+background-size: cover;">
+    <div class="localities">
+    
+        <div class="col1">
+          <h4 style="background-image: -webkit-linear-gradient(180deg, #F27121, #E94057, #8A2387 );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;">Popular localities in and around chennai</h4>
+        <a href="#" data-toggle="tooltip" title="Restaurants in T.nagar">T.Nagar(3 places)</a><br>
+        <a href="#" data-toggle="tooltip" title="Restaurants in Adyar">Adyar(2 places)</a><br>
+        <a href="#" data-toggle="tooltip" title="Restaurants in mylapore">Mylapore(4 places)</a><br>
+        <a href="#" data-toggle="tooltip" title="Restaurants in Besantnagar">Besant Nagar(6 places)</a><br>
+        <a href="#" data-toggle="tooltip" title="Restaurants in Perungudi">Perungudi(1 places)</a><br>
+        <a href="#" data-toggle="tooltip" title="Restaurants in Royapettah">Royapettah(1 places)</a><br>
+        <a href="#" data-toggle="tooltip" title="Restaurants in Kilpauk">Kilpauk(3 places)</a><br>
+        <a href="#" data-toggle="tooltip" title="Restaurants in Gopalapuram">Gopalapuram(2 places)</a><br>
+        <a href="#" data-toggle="tooltip" title="Restaurants in pallavaram">Pallavaram(5 places)</a><br>
+        <a href="#" data-toggle="tooltip" title="Restaurants in chrompet">Chrompet(3 places)</a><br>
+        </div>
+        <div class="col1"><br>
+        <a href="#" data-toggle="tooltip" title="Restaurants in Nungambakkam">Nungampakkam(3 places)</a><br>
+        <a href="#" data-toggle="tooltip" title="Restaurants in Anna nagar east">Anna nagar east(2 places)</a><br>
+        <a href="#" data-toggle="tooltip" title="Restaurants in Alwarpet">Alwarpet(4 places)</a><br>
+        <a href="#" data-toggle="tooltip" title="Restaurants in Semmancheri">Semmancheri(6 places)</a><br>
+        <a href="#" data-toggle="tooltip" title="Restaurants in Medavakkam">Medavakkam(1 places)</a><br>
+        <a href="#" data-toggle="tooltip" title="Restaurants in Sholinganallur">Sholinganallur(1 places)</a><br>
+        <a href="#" data-toggle="tooltip" title="Restaurants in Porur">porur(3 places)</a><br>
+        <a href="#" data-toggle="tooltip" title="Restaurants in Ashok nagar">Ashok nagar(2 places)</a><br>
+        <a href="#" data-toggle="tooltip" title="Restaurants in Ramapuram">Ramapuram(5 places)</a><br>
+        <a href="#" data-toggle="tooltip" title="Restaurants in Neelangarai">Neelangarai(3 places)</a><br>
+        </div>
+        <div class="col1"><br>
+        <a href="#" data-toggle="tooltip" title="Restaurants in Velachery">Velachery(3 places)</a><br>
+        <a href="#" data-toggle="tooltip" title="Restaurants in Thuraipakkam">Thuraipakkam(2 places)</a><br>
+        <a href="#" data-toggle="tooltip" title="Restaurants in Anna nagar west">Anna nagar west(4 places)</a><br>
+        <a href="#" data-toggle="tooltip" title="Restaurants in Vada palani">Vada palani(6 places)</a><br>
+        <a href="#" data-toggle="tooltip" title="Restaurants in egmore">Egmore(10 places)</a><br>
+        <a href="#" data-toggle="tooltip" title="Restaurants in guindy">Guindy(1 places)</a><br>
+        <a href="#" data-toggle="tooltip" title="Restaurants in Kodambakkam">Kodambakkam(3 places)</a><br>
+        <a href="#" data-toggle="tooltip" title="Restaurants in Teynampet">Teynampet(2 places)</a><br>
+        <a href="#" data-toggle="tooltip" title="Restaurants in RA puram">RA puram(5 places)</a><br>
+        <a href="#" data-toggle="tooltip" title="Restaurants in navallur">navallur(3 places)</a><br>
+        </div>
+    </div><br><br><br>
+<!--<h2 style="background-image: -webkit-linear-gradient(180deg, #F27121, #E94057, #8A2387 );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;">Customer's feedback based on our services</h2><br>
+    <div class="feedback">
+    
+  <div class="progress" style="height: 8%">
+    <h5>Excellent&nbsp;&nbsp;</h5><div class="progress-bar" style="width:70%">70%</div>
+  </div><br>
+        <div class="progress" style="height: 8%">
+    <h5>Good&nbsp;&nbsp;</h5><div class="progress-bar" style="width:50%">50%</div>
+  </div><br>
+        <div class="progress" style="height: 8%">
+    <h5>Okay&nbsp;&nbsp;</h5><div class="progress-bar" style="width:10%">10%</div>
+  </div><br>
+        <div class="progress" style="height: 8%">
+    <h5>Poor&nbsp;&nbsp;</h5><div class="progress-bar" style="width:5%">5%</div>
+  </div>
+    </div><br><br>-->
+
+
+    <div class="Restaurants">
+      
+        <div class="col1" width="250px">
+          <h4 style="background-image: -webkit-linear-gradient(180deg, #F27121, #E94057, #8A2387 );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;">Popular cuisines near me</h4>
+            <a href="#">Arabian food near me </a><br>
+            <a href="#">Bakery food near me </a><br>
+            <a href="#">Beverages food near me </a><br>
+            <a href="#">Biryani food near me </a><br>
+            <a href="#">Burger food near me </a><br>
+            <a href="#">Cafe food near me </a><br>
+            <a href="#">Chettinad food near me </a><br>
+            <a href="#">Chinese food near me </a><br>
+            <a href="#">Continental food near me </a><br>
+            <a href="#">Desserts food near me </a><br>
+        </div>
+        <div class="col1" width="250px"><br>
+          <a href="#">Street Food food near me </a><br>
+            <a href="#">Ice Cream food near me </a><br>
+            <a href="#">Italian food near me </a><br>
+            <a href="#">Juices food near me </a><br>
+            <a href="#">Mithai food near me </a><br>
+            <a href="#">North Indian food near me</a><br>
+            <a href="#">Pizza food near me </a><br>
+            <a href="#">Sandwich food near me </a><br>
+            <a href="#">Seafood food near me </a><br>
+            <a href="#">South Indian food near me </a><br>
+        </div>
+         <div class="col1" width="250px">
+          <h4 style="background-image: -webkit-linear-gradient(180deg, #F27121, #E94057, #8A2387 );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;">Popular restaurants near me</h4>
+            <a href="#">Bakeries near me</a><br>
+            <a href="#">Bars near me </a><br>
+            <a href="#">Beverage Shops near me</a><br>
+            <a href="#">Bhojanalya near me </a><br>
+            <a href="#">Cafés near me </a><br>
+            <a href="#">Casual Dining near me</a><br>
+            <a href="#">Clubs near me</a><br>
+            <a href="#">Confectioneries near me </a><br>
+            <a href="#">Dessert Parlors near me</a><br>
+            <a href="#">Dhabas near me</a><br>
+        </div>
+         <div class="col1" width="250px"><br>
+            <a href="#">Fine Dining near me</a><br>
+            <a href="#">Food Courts near me</a><br>
+            <a href="#">Food Trucks near me</a><br>
+            <a href="#">Kiosks near me</a><br>
+            <a href="#">Lounges near me</a><br>
+            <a href="#">Meat Shops near me</a><br>
+            <a href="#">near me</a><br>
+            <a href="#">Paan Shop near me</a><br>
+            <a href="#">Pubs near me</a><br>
+            <a href="#">Quick Bites near me</a><br>
+        </div>
+    </div>
+
+    <div class="Restaurants1">
+      
+      <div class="col1" width="100px">
+        <h4 style="background-image: -webkit-linear-gradient(180deg, #F27121, #E94057, #8A2387 );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;">Top Restaurant Chains</h4>
+        <a href="#">Burger King</a><br>
+        <a href="#">McDonald's </a><br>
+      </div>
+      <div class="col1" width="100px"><br>
+        <a href="#">Domino's</a><br>
+        <a href="#">Moti Mahal Delux</a><br>
+      </div>
+      <div class="col1" width="100px"><br>
+        <a href="#">Faasos</a><br>
+        <a href="#">Paradise Biryani</a><br>
+      </div>
+      <div class="col1" width="100px"><br>
+        <a href="#">KFC</a><br>
+        <a href="#">Pizza Hut</a><br>
+      </div>
+      <div class="col1" width="100px"><br>
+        <a href="#">Krispy Kreme</a><br>
+        <a href="#">WOW! Momo</a><br>
+      </div>
+    </div><br>
+
+  <div class="Restaurants">
+    <div class="col1">
+      <h4 style="background-image: -webkit-linear-gradient(180deg, #F27121, #E94057, #8A2387 );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;">About BRAND X</h4>
+      <a href="#">About Us </a><br>
+      <a href="#">Culture </a><br>
+      <a href="#">Blog </a><br>
+      <a href="#">Careers </a><br>
+      <a href="#">Contact</a><br>
+    </div>
+    <div class="col1">
+      <h4 style="background-image: -webkit-linear-gradient(180deg, #F27121, #E94057, #8A2387 );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;">For Foodies</h4>
+      <a href="#">Code of Conduct </a><br>
+      <a href="#">Community </a><br>
+      <a href="#">Verified Users </a><br>
+      <a href="#">Blogger Help</a><br>
+      <a href="#">Developers</a><br>
+      <a href="#">Mobile Apps </a><br>
+    </div>
+    <div class="col1">
+      <h4 style="background-image: -webkit-linear-gradient(180deg, #F27121, #E94057, #8A2387 );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;">For Restaurants</h4>
+      <a href="#">Add a Restaurant </a><br>
+      <a href="#">Claim your Listing</a><br>
+      <a href="#">Business App </a><br>
+      <a href="#">Business Owner Guidelines </a><br>
+      <a href="#">Business Blog </a><br>
+      <a href="#">Restaurant Widgets </a><br>
+      <a href="#">Products for Businesses </a><br>
+    </div>
+    <div class="col1">
+      <a href="#"></a><br>
+      <a href="#">Advertise</a><br>
+      <a href="#">Order</a><br>
+      <a href="#">Book</a><br>
+      <a href="#">Trace</a><br>
+      <a href="#">Hyperpure</a><br>
+      
+    </div>
+  </div>
+</div>
+    <script>
+var modal = document.getElementById("myModal");
+var btn = document.getElementById("myBtn1");
+var span = document.getElementsByClassName("close")[0]; 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+span.onclick = function() {
+  modal.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+<script>AOS.init();</script>
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+ <!-- <script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>-->
+
+
+
+</body>
+</html>
